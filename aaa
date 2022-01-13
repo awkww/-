@@ -1,0 +1,55 @@
+# "hallo pithon?" -> "hello python!" 으로 바꾸어 출력하기
+#a -> e
+#i -> y
+#? -> !
+# a="hallo pithon?"
+# print(a[0]+"e"+a[2:7]+"y"+a[8:12]+"!")
+
+# a= 738
+# b="ros"
+#input() 값 입력하는 함수
+# a=input()
+# print(type(a))
+#b=int(input())     #문자열로 받은 숫자값을  숫자로 바꿔받기
+# print(type(b))
+
+#숫자값 세개를 입력받아서 곱하여 출력하는 프로그램 만들기
+
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# print(a*b*c)
+
+#논리 연산자
+#end, or, ==(서로 같다면), !=(서로같지 않다면), >, <. >=, <=
+#end: 조건 and 조건 -> 묶인 조건이 모두 참일 때만 전체가 참
+#or: 조건 or 조건 -> 묶인 조건들 중 하나 이상이 참일 때만 참
+
+#if = 조건문
+# if 조건:
+#     실행할 코드
+#     ~
+#     ~
+#     ~
+
+# a=7
+# if a==7:
+#     print(a+3)
+
+# a=3
+# if a==7:
+#     print(a+3)
+# else:#it의 조건이 거짓일때
+#     print(a-2)
+#
+
+# a=3
+# if a==7:
+#     print(a+3)
+# elif a<=4:    #if와 else 사이에 넣기
+#     print(a*8)
+# else:#it의 조건이 거짓일때
+#     print(a-2)
+
+
+
