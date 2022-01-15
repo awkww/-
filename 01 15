@@ -1,0 +1,200 @@
+#주석 - 메모
+
+# 더하기 빼기 곱하기 나누기 나머지 몫
+# + - * / % //
+
+#출력함수 print()
+#print(2*5%3)
+#변수
+#변수의 이름 = 들어갈 값
+# a=2+3
+# b=7*8
+# c=a+b
+# a=b
+
+#
+
+#
+# a=7
+# b=13
+# c=a
+# a=b
+# b=c
+# print(a,b)
+
+# a=3
+# b=6
+# c=9
+# d=a
+# e=b
+# f=c
+# b=d
+# c=e
+# a=f
+# print(a,b,c)
+
+#자료형
+# a=41  #int - 정수형
+# b=3.1 #float - 실수형
+# c="abcd" #str - 문자열
+#
+# #type() - 들어간 값의 자료형을 알려줌
+# print(type(a))
+# print(type(b))
+# print(type(c))
+
+
+# a="abc"
+# b="가나다"
+# c=a+b+"!"
+# print(a+b)
+#
+# "1234" #문자
+
+#인덱싱, 슬라이싱
+# a= "hello python!" #0부터 시작  #공백도 세기
+# print(a[1])
+# print(a[7:])   #이상
+# print(a[:4])   #미만
+# print(a[3:9])
+# "hallo pithon?" -> "hello python!" 으로 바꾸어 출력하기
+#a -> e
+#i -> y
+#? -> !
+# a="hallo pithon?"
+# print(a[0]+"e"+a[2:7]+"y"+a[8:12]+"!")
+
+# a= 738
+# b="ros"
+#input() 값 입력하는 함수
+# a=input()
+# print(type(a))
+#b=int(input())     #문자열로 받은 숫자값을  숫자로 바꿔받기
+# print(type(b))
+
+#숫자값 세개를 입력받아서 곱하여 출력하는 프로그램 만들기
+
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# print(a*b*c)
+
+#논리 연산자
+#end, or, ==(서로 같다면), !=(서로같지 않다면), >, <. >=, <=
+#end: 조건 and 조건 -> 묶인 조건이 모두 참일 때만 전체가 참
+#or: 조건 or 조건 -> 묶인 조건들 중 하나 이상이 참일 때만 참
+
+#if = 조건문
+# if 조건:
+#     실행할 코드
+#     ~
+#     ~
+#     ~
+
+# a=7
+# if a==7:
+#     print(a+3)
+
+# a=3
+# if a==7:
+#     print(a+3)
+# else:#it의 조건이 거짓일때
+#     print(a-2)
+#
+
+# a=3
+# if a==7:
+#     print(a+3)
+# elif a<=4:    #if와 else 사이에 넣기
+#     print(a*8)
+# else:#it의 조건이 거짓일때
+#     print(a-2)
+#9498번
+# score = int(input())
+#
+# if score >= 90 and score <=100:
+#     print("A")
+# elif score >= 80 and score <=89:
+#     print("B")
+# elif score >= 70 and score <=79:
+#     print("C")
+# elif score >= 60 and score <=69:
+#     print("D")
+# else:
+#     print("F")
+#
+#2753번
+# year = int(input())
+# if (year%4==0 and year%100!=0) or year%400==0:
+#     print(1)
+# else:
+#     print(0)
+
+#14681번
+# x = int(input())
+# y = int(input())
+# if x > 0:
+#     if y > 0:
+#         print(1)
+#     elif y < 0:
+#         print(4)
+# elif x < 0:
+#     if y > 0:
+#         print(2)
+#     elif y < 0:
+#         print(3)
+
+#계산기
+# x = int(input())
+# y = int(input())
+# z = input()
+# if z =="+":
+#     print(x+y)
+# elif z =="-":
+#     print(x-y)
+# elif z=="*":
+#     print(x*y)
+# elif z=="//":
+#     print(x//y)
+# elif z=="%":
+#     print(x%y)
+# else:
+#     print("error")
+
+#정각 맞추기  12:00
+# time = input()
+# if time[3] and time[4] == "0":
+#     print("정각입니다.")
+# else:
+#     print("정각이 아닙니다")
+
+
+# while문 = 특정 조건이 성립하는 동안 동일한 내용의 작억을 반복적으로 수행
+# while<조건문>:
+#     <수행할 문장1>
+#     <수행할 문장2>
+# treehit = 0
+# while treehit <10:                   #조건
+#     treehit = treehit + 1            #내부값 갱신
+#     print("나무를 %d번 찍었습니다." %treehit)
+#     if treehit == 10:                #세부적인 조건건
+#        print("나무가 넘어갑니다.")
+
+#  break문
+#  while문을 빠져나가고 싶을 때 사용
+
+# coffee = 10
+# while True:
+#     money = int(input("돈을 넣어 주세요 : "))
+#     if money == 300:
+#         print("커피를 줍니다")
+#         coffee -= 1
+#     elif money > 300:
+#         print("거스름돈 %d를 주고 커피를 줍니다" %(money-300))
+#         coffee -=1
+#     else:
+#         print("돈을 다시 돌려주고 커피를 주지 않습니다")
+#         print("남은 커피의 양은 %d개 입니다" %coffee)
+#     if coffee == 0:
+#         print("커피가 다 떨어졌습니다. 판매를 중지합니다.")
+#         break
