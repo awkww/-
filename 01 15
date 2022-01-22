@@ -205,3 +205,96 @@
 #     if a%2 == 0:
 #         continue
 #     print(a)
+# a = 0
+# while a < 0:
+#     a += 1
+#     print(a)
+
+
+
+#10952번
+# A = 0
+# B = 0
+# while True:
+#     A = int(input())
+#     B = int(input())
+#     if A ==0 and B ==0:
+#         break
+#     print(A + B)
+
+# 불 자료형
+# a = True
+# b = False
+# print(type(a))
+# print(type(b))
+
+# while문 - 무한루프
+# while True:
+#     print("ctrl+c를 눌러야 while문을 빠져나갈 수 있습니다")
+#     a = input("문자열을 입력하시오:")
+#     if a == "ctrl+c":
+#             break
+
+
+#for문
+# for변수in 리스트(또는 튜플,문자열):
+
+# test_rist = ['one','two','three']
+# for i in test_rist:
+#     print(i)
+
+# for문 - range함수
+# .숫자 리스트를 자동으로 만들어준다.
+
+# for i in range(6):
+#     print(i)
+
+# for i in range(2,5):
+#     print(i)
+
+# for i in range(1,11,3):
+#     print(i)
+
+# add = 0
+# for i in range(1,11):
+#     add = add + i
+#     print(add)
+
+# for i in range(3,100,3):
+#     print(i)
+
+# for i in range(1,100):
+#     if i%3 == 0:
+#         print(i)
+
+# T = int(input())
+# for i in range(T):
+#     A = int(input())
+#     B = int(input())
+#     print(A + B)
+
+#별찍기 문제
+# print("*")
+# print("**")
+# print("***")
+# print("****")
+# print("*****") #-> for문이나 while문으로 만들어보기
+
+# a = int(input())
+# for i in range(1,a+1):
+#     print("*"*i)
+
+# x = 1
+# while x < 6:
+#     print("*"*x)
+#     x+= 1
+
+
+
+
+
+
+
+
+
+
