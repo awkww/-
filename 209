@@ -1,0 +1,68 @@
+# a = 'hello python'
+# print(a.count('o'))
+# print(a.find('l'))
+# # print(a.index('x'))
+# print(','.join(a))
+# print(a.replace('py','my'))
+# print(a.split())
+# print(a.upper())
+# print(a.lower())
+
+# a = "....ape.le...."
+# print('|',a.lstrip('.'),'|', sep="")  # a문자열에서 왼쪽부터 연속되는 . 지우기
+# print('|',a.strip('.'),'|', sep="")   # a문자열에서 양쪽부터 연속되는 . 지우기
+# print('|',a.rstrip('.'),'|', sep="")
+
+#딕셔너리
+# d = {'apple':'사과',"banana":"바나나", 3:'삼'}# print(d['apple'],d["banana"],d[3])
+# # del d[1]
+# print(d['x'])
+
+# key = d.keys()
+# value = d.values()
+# item = d.items()
+# print(list(key))
+# print(list(value))
+# print(list(item))
+# print('x'in d.keys())
+# print('apple'in d.keys())
+# print(bool(-3),bool(0))
+# print(bool('python'),bool(''))
+# print(bool([1,2,3]),bool([]))
+# print(bool((1,2)),bool(()))
+# print(bool({'1:1'}),bool({}))
+# print(bool(None))
+
+
+#백준 2884번
+#m이 45분보다 클경우  m-45를 출력한다
+#m이 45분보다 작을경우 h-1 해주고 m에 60을 더해준 값에 45분을 빼준다
+# h= int(input())
+# m= int(input())
+# if h == 1 and m <45:
+#     h += 23
+#     m += 60
+# elif m <45:
+#     h -=1
+#     m +=60
+#
+# print(h%24, (m-45)%60)
+
+#11022번
+
+
+# t = int(input())
+# for i in range(t):
+#     a = int(input())
+#     b = int(input())
+#
+#
+#
+# t = int(input())
+# for i in range(1,t+1):
+#     a,b = input().split()
+#     a=int(a)
+#     b=int(b)
+#     # print("case #%d: %d + %d" %(i,a,b,a+b)
+#     print('case #',i,':',a,'+',b,'=',a+b)
+#     
