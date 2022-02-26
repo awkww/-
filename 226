@@ -1,0 +1,170 @@
+# a = "hello python"
+# print(a.count('o'))
+# print(a.find('l'))
+# print(a.index('x'))
+# print(','.join(a))
+# print(a.replace('py','my'))
+# print(a.split())  #단어사이에 ,있으면 괄호사이에 , 넣기
+# print(a.upper())
+# print(a.lower())
+#
+# a = "....app.le...."
+# print(a.lstrip('.'))
+# print(a.strip('.'))
+
+
+# a = 0
+# while True:
+#     a += 1
+#     print(a)
+#     if a== 10:
+#         break
+#
+# for i in range(1,10,2):  #i = 1,2,3,4,5,6,7,8,9  1
+#     print(i)
+#
+# a = ['a','b','c','d']
+# for i in a:
+#     print(i)
+#
+# a = 'hello python'
+# for i in a:
+#     print(i)
+
+# a = [1,2,3,[4,5],6]
+# print(a[3][1])
+# a[4] = 7
+# b = [8,9]
+# c = a +b
+# print(c)
+# print(b)# a = [1,2,3,[4,5],6]
+# # a.append(7)
+# # print(a)
+
+# a=[5,4,2,1,3]
+# a.sort()
+# a.remove(3)
+# print(a)
+# print(a.pop())
+# print(a)
+# a.extend([7,8]) #확장
+# print(a.count(3))
+# print(a)
+
+# a = [5,4,2,1,3]
+# a[2] = 8
+# t = (5,4,2,1,3)
+# del t[2]
+# d= {'apple:':'사과','banana':'바나나',3:'삼'}
+# print(d.keys())
+# print(d.values())
+# print('x' in d.keys)
+# print('apple' in d.keys())
+# print('사과' in d.values())
+# print(bool('python'),bool(''))
+# print(bool([1,2,3]),bool([]))
+
+# n = int(input())
+# a = input()
+# for i in a:
+#     print(i)
+#
+# n = int(input())
+# a = input()
+# answer= 0
+# for i in a:
+#     answer += int(i)
+# print(answer)
+
+# 127
+# num = input("주민등록번호: ")
+# num = num.split("-")[1]
+# if num[0] == "1" or num[0] == "3":
+#     print("남자")
+# else:
+#     print("여자")
+#
+# 128
+#
+# num = input("주민등록번호: ")
+# back = num.split("-")[1]
+# if 0 <= int(back[1:3]) <= 8:
+#     print("서울입니다.")
+# else:
+#     print("서울이 아닙니다.")
+#
+#
+# 129
+# num = input("주민등록번호: ")
+# c1 = int(num[0]) * 2 + int(num[1]) * 3 + int(num[2]) * 4 + int(num[3]) * 5 + int(num[4]) * 6 + \
+#         int(num[5]) * 7 + int(num[7]) * 8 + int(num[8]) * 9 + int(num[9]) * 2 + int(num[10])* 3 + \
+#         int(num[11])* 4 + int(num[12]) * 5
+# c2 = 11 - (c1 % 11)
+# c3 = str(c2)
+#
+# if num[-1] == c3[-1]:
+#     print("유효한 주민등록번호입니다.")
+# else:
+#     print("유효하지 않은 주민등록번호입니다.")
+
+
+# 과일 = ["사과", "귤", "수박"]
+# for 변수 in 과일:
+#     print(변수)
+
+# 141
+# 변수 = [100, 200, 300]
+# for i in 변수:
+#   print(i+10)
+# 143
+# a = ["SK하이닉스", "삼성전자", "LG전자"]
+# for i in a:
+#   print(len(i))
+
+
+#144
+# 리스트 = ['dog', 'cat', 'parrot']
+# for a in 리스트:
+#     print(a, len(a))
+
+#145
+# 리스트 = ['dog', 'cat', 'parrot']
+# for a in 리스트:
+#     print(a[0])
+
+# 146
+# 리스트 = [1,2,3]
+# for i in 리스트:
+#     print("3 x",i)
+
+#147
+# 리스트 = [1, 2, 3]
+# for i in 리스트:
+#     print("3 x %d = %d"%(i, i*3))
+
+#148
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[1:]:
+#     print(a)
+
+# 149
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[::2]:
+#     print(a)
+
+#150
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[::-1]:
+#     print(a)
+
+# 151
+# i = [3, -20, -3, 44]
+# for a in i:
+#     if a < 0:
+#         print(a)
+
+# 151
+# 리스트 = [13, 21, 12, 14, 30, 18]
+# for a in 리스트:
+#     if (a < 20 and (a%3==0)):
+#         print(a)
