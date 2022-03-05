@@ -1,0 +1,337 @@
+# a = "hello python"
+# print(a.count('o'))
+# print(a.find('l'))
+# print(a.index('x'))
+# print(','.join(a))
+# print(a.replace('py','my'))
+# print(a.split())  #단어사이에 ,있으면 괄호사이에 , 넣기
+# print(a.upper())
+# print(a.lower())
+#
+# a = "....app.le...."
+# print(a.lstrip('.'))
+# print(a.strip('.'))
+
+
+# a = 0
+# while True:
+#     a += 1
+#     print(a)
+#     if a== 10:
+#         break
+#
+# for i in range(1,10,2):  #i = 1,2,3,4,5,6,7,8,9  1
+#     print(i)
+#
+# a = ['a','b','c','d']
+# for i in a:
+#     print(i)
+#
+# a = 'hello python'
+# for i in a:
+#     print(i)
+
+# a = [1,2,3,[4,5],6]
+# print(a[3][1])
+# a[4] = 7
+# b = [8,9]
+# c = a +b
+# print(c)
+# print(b)# a = [1,2,3,[4,5],6]
+# # a.append(7)
+# # print(a)
+
+# a=[5,4,2,1,3]
+# a.sort()
+# a.remove(3)
+# print(a)
+# print(a.pop())
+# print(a)
+# a.extend([7,8]) #확장
+# print(a.count(3))
+# print(a)
+
+# a = [5,4,2,1,3]
+# a[2] = 8
+# t = (5,4,2,1,3)
+# del t[2]
+# d= {'apple:':'사과','banana':'바나나',3:'삼'}
+# print(d.keys())
+# print(d.values())
+# print('x' in d.keys)
+# print('apple' in d.keys())
+# print('사과' in d.values())
+# print(bool('python'),bool(''))
+# print(bool([1,2,3]),bool([]))
+
+# n = int(input())
+# a = input()
+# for i in a:
+#     print(i)
+#
+# n = int(input())
+# a = input()
+# answer= 0
+# for i in a:
+#     answer += int(i)
+# print(answer)
+
+# 127
+# num = input("주민등록번호: ")
+# num = num.split("-")[1]
+# if num[0] == "1" or num[0] == "3":
+#     print("남자")
+# else:
+#     print("여자")
+#
+# 128
+#
+# num = input("주민등록번호: ")
+# back = num.split("-")[1]
+# if 0 <= int(back[1:3]) <= 8:
+#     print("서울입니다.")
+# else:
+#     print("서울이 아닙니다.")
+#
+#
+# 129
+# num = input("주민등록번호: ")
+# c1 = int(num[0]) * 2 + int(num[1]) * 3 + int(num[2]) * 4 + int(num[3]) * 5 + int(num[4]) * 6 + \
+#         int(num[5]) * 7 + int(num[7]) * 8 + int(num[8]) * 9 + int(num[9]) * 2 + int(num[10])* 3 + \
+#         int(num[11])* 4 + int(num[12]) * 5
+# c2 = 11 - (c1 % 11)
+# c3 = str(c2)
+#
+# if num[-1] == c3[-1]:
+#     print("유효한 주민등록번호입니다.")
+# else:
+#     print("유효하지 않은 주민등록번호입니다.")
+
+
+# 과일 = ["사과", "귤", "수박"]
+# for 변수 in 과일:
+#     print(변수)
+
+# 141
+# 변수 = [100, 200, 300]
+# for i in 변수:
+#   print(i+10)
+# 143
+# a = ["SK하이닉스", "삼성전자", "LG전자"]
+# for i in a:
+#   print(len(i))
+
+
+#144
+# 리스트 = ['dog', 'cat', 'parrot']
+# for a in 리스트:
+#     print(a, len(a))
+
+#145
+# 리스트 = ['dog', 'cat', 'parrot']
+# for a in 리스트:
+#     print(a[0])
+
+# 146
+# 리스트 = [1,2,3]
+# for i in 리스트:
+#     print("3 x",i)
+
+#147
+# 리스트 = [1, 2, 3]
+# for i in 리스트:
+#     print("3 x %d = %d"%(i, i*3))
+
+#148
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[1:]:
+#     print(a)
+
+# 149
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[::2]:
+#     print(a)
+
+#150
+# 리스트 = ["가", "나", "다", "라"]
+# for a in 리스트[::-1]:
+#     print(a)
+
+# 151
+# i = [3, -20, -3, 44]
+# for a in i:
+#     if a < 0:
+#         print(a)
+
+# 151
+# 리스트 = [13, 21, 12, 14, 30, 18]
+# for a in 리스트:
+#     if (a < 20 and (a%3==0)):
+#         print(a)
+
+# 함수
+# def 함수명():
+#     <수행할 문장1>
+#     <수행할 문장2>
+
+# def greet():  #괄호안에 매개변수가 없을 수 있고 다음과 같은 함수는 밑의 문장을 출력한다.
+#     print("good morning!")
+#
+# greet() #함수를 실행할 때 다음과 같이 코드를 적어야함
+
+# def greet(message):  #매개변수 값이 있는 경우
+#     print(message)
+#
+# def plus(x,y):
+#     print(x+y)
+#
+# greet("Hello!") #인수 , 함수를 실행할 때 적어 줘야함
+# plus(7,5) #인수
+
+# def minus(x,y):
+#     print(x-y)
+# a = 7
+# b = 5
+# minus(a,b)
+# minus(b,a)
+# minus(a+1, 10//2)
+#
+# def average(x,y,z):
+#     print("average=%d"%((x+y+z)/3))
+# a= 7
+# b = 5
+# c = 9
+#
+# average(a,b,c)
+# average(10,b,0) #값을 변경할 수 있다 (변수니까)
+
+# def change(p,m):
+#     print("물건 값= %d" %(p))
+#     print("받은 돈 = %d" %(m))
+#     print("거스름 돈 = %d" %(m-p))
+#
+# price = int(input("물건 값? ")) #입력 가능하다
+# money = int(input("받은 돈? "))
+#
+# change(price,money)
+
+# def welcome(n,p):
+#     print("안녕하세요 %s님"%(n))
+#     print("현재 %d 포인트를 보유하고 있습니다"%(p))
+# name = input()
+# point = int(input())
+#
+# welcome(name,point)
+
+# def minus(x,y):
+#     z = x-y
+#     return z
+#
+# a = 7
+# b = 5
+# c = minus(a,b)
+# print(c)
+# d = c+10
+# print(d)
+# if c > 0:
+#     print("c의 값은 양수이다")
+#
+# def even(n):
+#     return n % 2 == 0
+# x= int(input())
+# if even(x):
+#     print("짝수이다")
+# else:
+#     print("홀수이다")
+
+# def allot(sum, n):
+#     return sum//n
+# price = int(input())
+# months = int(input())
+#
+# if months < 3 or months > 12:
+#     print("3~13개월 할부만 가능합니다.")
+# else:
+#     amt = allot(price, months)
+#     print("월할부금은 %d입니다."%(amt))
+
+# def code():
+#     print("원하는 거래번호를 선택하세요")
+#     print("1 입금")
+#     print("2 출금")
+#     print("3 취소")
+#
+#     code = int(input("거래번호 : "))
+#     return code
+#
+# c = code()
+# print("%d번을 서택하셨습니다"%(c))
+
+# def square(a):
+#     return a **2
+# def addsquare(a,b):
+#     return square(a) + square(b)
+# print("두개의 수를 입력하시오.")
+# x = int(input())
+# y = int(input())
+# print("두 수의 제곱의 합은 %d이다"%(addsquare(x,y)))
+
+#게산기 만들기
+
+# 1 누르면 더하는 함수 가져오기
+# 2 누르면 빼는 ;;
+# 3 누르면 곱하는 ;;
+# 4 누르면 나누는 ;;
+
+# x,y에 숫자를 입력받아
+# n에 계산기 종류를 선택해
+# ex: n = 1이면 더하는 x+y가 출력될 수 있도록
+
+#더하는 역할을 하는 함수, 빼는 역할을 하는 함수 , 곱하는 역할, 나누는 역할
+#함수를 4대 만들어야함
+#n이 1,2,3,4가 되는 경우에 따라 필요한 함수를 가져와야함
+
+
+# def add(b,c):
+#     a= b + c
+#     return a
+# def min(b,c):
+#     a= b-c
+#     return a
+# def mul(b,c):
+#     a= b*c
+#     return a
+# def div(b,c):
+#     a = b/c
+#     return a
+# x = int(input())
+# y = int(input())
+# n = int(input())
+# if n ==1:
+#     d = add(x,y)
+# elif n ==2:
+#     d = min(x,y)
+# elif n ==3:
+#     d = mul(x,y)
+# elif n ==4:
+#     d = div(x,y)
+# print(d)
+
+# def findmax(a,b,c):
+#     if a > b:
+#         if a > c:
+#             max = a
+#         elif c > a:
+#             max = c
+#     elif b > a:
+#         if b > c:
+#             max = b
+#         elif c > b:
+#             max = c
+#     return max
+# print("3개의 점수를 입력하세요")
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# print("최고점 : %d"%(findmax(x,y,z)))
+
