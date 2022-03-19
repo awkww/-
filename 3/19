@@ -1,0 +1,124 @@
+#a2
+# a = int(input())
+# b = int(input())
+# print("%d * %d = %d"%(a,b,a*b))
+# print("%d / %d = %.1f"%(a,b,a/b))
+
+#a3
+# yard=float(input())
+# print("%d=yard=%.3f"%(yard,yard*100*0.9144))
+
+
+# b2
+# x = float(input('x ='))
+# y = float(input('y ='))
+# print(x*y)
+#
+# b3
+# a= int(input())
+# b = int(input())
+# c = int(input())
+# sum = a+b+c
+# avg = sum//3
+# print("sum = %d"%(sum))
+# print("avg = %d"%(avg))
+
+# b4
+# wolf=input()
+# sheep=input()
+# a=int(input())
+#
+# print(sheep*a+wolf)
+#
+# # 5
+# l=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# ll = []
+# a= int(input())
+# for i in l:
+#     if i % a == 0:
+#         ll.append(i)
+# print(ll)
+
+#6
+# a = {1:'dog',2:'cat',3:'chick'}
+# n = int(input("number? "))
+# if n==1 or n==2 or n==3:
+#     print(a[n])
+# else:
+#     print("i don't know.")
+
+#7
+# l = []
+# sun = 0
+# avg = 0
+# while True:
+#     a = int(input)
+#     l.append(a)
+#     if a >= 100:
+#         break
+# for i in l:
+#     sum += 1
+# avg = sum/(len(l))
+# print(sum)
+# print("%.if"%(avg))
+
+# 9
+# a= float(input())
+# b = float(input())
+# aa= a**(1/2)
+# bb = b**(1/2)
+# print(aa)
+# print(bb)
+# c= abs(aa-bb)
+# if (c%inr(c)) >= 0.5:
+#     print(int(c)+1)
+# elif (c%int(c)) ==0:
+#     print(int(c)-1)
+# else:
+#     print(int(c))]
+# l = []
+# odd = 0
+# even=0
+# while True:
+#     a= int(input())
+#     if a ==0:
+#         break
+#     l.append(a)
+# print(l)
+# for i in l:
+#     if i % 2 ==0:
+#         even += 1
+#     else:
+#         odd += 1
+# print('odd : %d'%(odd))
+# print('even : %d'%(even))
+
+
+# def circle(x):
+#     return  x*x*3.14
+# 
+# r= int(input)
+# print("%.2f"%circle(r))
+
+#최대공약수
+# a= int(input())
+# b= int(input())
+# if a > b:
+#     min = b
+# else:
+#     min =a 
+# for i in range(min+1, 1, -1):
+#     if a % 1 == 0 and b % 1 == 0:
+#         print(i)
+#         break
+
+#최소공배수
+# x = int(input())
+# y = int(input())
+# if x > y:
+#     max = x
+# else:
+#     max = y
+# for i in range(max, (x*y)+1):
+#     anw = 1
+#     break
